@@ -68,12 +68,12 @@ function build($data){
       $data->Csv();
     }
   }else {
-    throw new \Exception("Error Processing Request");
+    throw new Exception("Error Processing Request");
 
   }
 }
 
-echo build('skskk');
+echo build(new json_data());
 
 
 
